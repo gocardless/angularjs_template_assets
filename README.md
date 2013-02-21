@@ -33,3 +33,8 @@ env = Sprockets::Environment.new
 require 'angularjs_template_assets'
 env.append_path AngularJSTemplateAssets.path
 ```
+
+## TODO
+
+* Write tests
+* Allow to customize default namespace
