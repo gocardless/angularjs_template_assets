@@ -37,4 +37,3 @@ env.append_path AngularJSTemplateAssets.path
 ## TODO
 
 * Write tests
-* Allow to customize default namespace
