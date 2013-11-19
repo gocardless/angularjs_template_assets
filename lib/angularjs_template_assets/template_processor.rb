@@ -22,7 +22,7 @@ angular.module('#{module_name}', [])
     def escape_content(content)
       content
         .gsub(/\\/, "\\\\")
-        .gsub(/'/, "\\\'")
+        .gsub(/'/,  %q(\\\'))
         .gsub(/\r?\n/, "\\n\' +\n    \'")
     end
   end
