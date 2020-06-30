@@ -21,5 +21,5 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency "sprockets", ">= 2.0.3"
 
   gem.add_development_dependency "rake"
-  gem.add_development_dependency "rspec", "~> 2.6"
+  gem.add_development_dependency "rspec", "~> 3.9"
 end
